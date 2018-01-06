@@ -1,0 +1,165 @@
+
+/* main.css */
+
+
+
+/* ANALOGOUS COLOR SCHEME*     */
+/* Dark Blue:          #443CFF */
+/* Light Blue:         #4267E8 */
+/* Pale Turquoise:     #3EBDE8 */
+/* Pale Blue:          #4AA2FF */
+/* Medium Turquoise:   #42FFFD */
+
+/* *ANALOGOUS COLOR SCHEME FORMULATION*/
+/*  https://color.adobe.com/create/color-wheel/?base=2&rule=Analogous&selected=2&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.26610459283670085,0.2344626934473102,1,0.25856026877009786,0.40316031820164056,0.91,0.2919851121499043,0.6345386919802601,1,0.24252869111884215,0.7402454759122653,0.91,0.2593247833663642,1,0.9940035543642409&swatchOrder=0,1,3,2,4  */
+
+
+/* FONT FAMILIES */
+h1,
+h2,
+h3,
+h4,
+.card-title {
+    font-family: 'Trirong', "Cinzel", "Times New Roman", serif;
+}
+p {
+    font-family: 'Open Sans', "Cantarell", "Arial", sans-serif;
+}
+
+html,
+body {
+    color: #443CFF;
+    background-color: #3EBDE8;
+}
+
+h1 {
+    color: #443CFF;
+}
+
+h2 {
+    color: #443CFF;
+    background-color: #42FFFD;
+}
+
+h3 {
+    color: #443CFF;
+    background-color: #3EBDE8;
+}
+
+h4 {
+    margin: 5% 0 0.5% 3%;
+    text-align: center;
+}
+
+.instructions {
+    display: block;
+    text-align: center;
+    background-color: #42FFFD;
+    padding: 0.75% 0 0.75% 0;
+    border: 0;
+    margin: 0 0 5% 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.jumbotron {
+    background-color: #42FFFD;
+}
+
+.lead {
+    padding-top: 3%;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.jumbo-box {
+    padding: 4px;
+    background-color: #3EBDE8;
+    border: 1.5px solid #443CFF;
+}
+
+main {
+    color: #443CFF;
+}
+
+p {
+    background-color: #3EBDE8;
+}
+
+.fn {
+    background-color: #42FFFD;
+    text-align: left;
+    padding: 5% 0 0 1%;
+    border: 0;
+    margin: 0;
+    font-size: 75%;
+    font-style: italic;
+    font-weight: 575;
+}
+
+.foot-border {
+    padding-bottom: 0;
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.container-fluid {
+    border: 5px solid transparent;
+    margin-top: 5px;
+}
+
+.card {
+    border: 1.5px solid #443CFF;
+}
+
+.card-img-top {
+    border: 1.5px solid #443CFF;
+}
+
+.card-body {
+    background-color: #42FFFD;
+    border: 1px solid #443CFF;
+}
+
+.card-text {
+    border: 1.5px solid #443CFF;
+}
+
+.card text-center {
+    background-color: #443CFF;
+}
+
+.img-fluid {
+    border: 20px solid transparent;
+    margin-top: 20px;
+}
+
+figcaption {
+    margin-left: 20px;
+}
+
+.iconic {
+    display: block;
+    margin: 3% 1% 0 1%;
+    float: right;
+    fill: #443CFF;
+}
+
+.iconic:hover {
+    fill: #000;
+    cursor: pointer;
+}
+
+.copy {
+    display: block;
+    margin: 6% 10% 0 2%;
+    float: left;
+}
+
+/* ICONS */
+@font-face {
+    font-family: 'iconic-sm';
+    src: url('../fonts/iconic-sm.eot');
+
+    
+    
